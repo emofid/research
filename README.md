@@ -4,8 +4,8 @@
 
 ---
 
-[سرویس ورکر چیست؟](blob/master/service-workers.md)
+[سرویس ورکر چیست؟](service-workers)
 
-[سوکت چیست؟](web-sockets.md)
+[سوکت چیست؟](web-sockets)
 
 </div>
