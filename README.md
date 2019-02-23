@@ -4,8 +4,8 @@
 
 ---
 
-[سرویس ورکر چیست؟](https://github.com/emofid/research/blob/master/service-workers.md)
+[سرویس ورکر چیست؟](blob/master/service-workers.md)
 
-[سوکت چیست؟](https://github.com/emofid/research/blob/master/sockets.md)
+[سوکت چیست؟](web-sockets.md)
 
 </div>
