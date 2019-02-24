@@ -1,6 +1,6 @@
 <div dir="rtl">
 
-## سوکت جیست
+## سوکت چیست؟
 
 **سوکت به عمل اتصال دو شبکه اطلاق میشه**
 
@@ -29,5 +29,19 @@
 ### پشتیبانی از (Room)
 
 در داخل هر `Namespace` شما می‌تونید کانال های دلخواهتون که به `Room` شناخته می‌شوند ایجاد کنید. هر کاربر می‌تواند وارد این room ها شده یا از آن خارج شود. در آن طرف نیز شما می‌توانید پیام های مورد نظرتان را جداگانه به هر یک از این room ها ارسال نمایید.
+
+### چند کاربر همزمان؟
+
+شاید این سوال پیش بیاد که با استفاده از `Socket.io`، امکان سرویس دادن همزمان و Realtime به چند کاربر وجود خواهد داشت؟
+سوال خوبیه، ولی تا زمانی که خودمون نتونیم تست دقیق و واقعی داشته باشیم شاید نشه جواب درستی برای این موضوع پیدا کرد.
+
+ولی من با تحقیقاتی که انجام دادم به این نتیجه رسیدم که حداقل این تعداد بین 1400 تا 1800 کاربر به صورت همزمان خواهد بود.
+
+همینطور مطالعه این مقالات نیز خالی از لطف نیست:
+
+[600K concurrent websocket connections with Node.JS](https://blog.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/)
+[Socket.io benchmarking](http://drewww.github.io/socket.io-benchmarking/)
+[Maximum concurrent socket.io connections](https://stackoverflow.com/questions/15872788/maximum-concurrent-socket-io-connections)
+[Node.JS 1M concurrent connections](http://blog.caustik.com/2012/08/19/node-js-w1m-concurrent-connections/)
 
 </div>
