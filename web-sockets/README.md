@@ -20,7 +20,7 @@
 
 ### پشتیبانی از Binary
 
-توسط `Socket.io` به راحتی می‌توان هرگونه فایل یا متن را به صورت `JSON` بین کاربران و سرور رد و بدل کرد.
+توسط `Socket.io` به راحتی می‌توان هرگونه فایل یا متن را بین کاربران و سرور رد و بدل کرد.
 
 ### پشتیبانی از سهمیه بندی (جداسازی)
 
@@ -37,11 +37,21 @@
 
 ولی من با تحقیقاتی که انجام دادم به این نتیجه رسیدم که حداقل این تعداد بین 1400 تا 1800 کاربر به صورت همزمان خواهد بود.
 
-همینطور مطالعه این مقالات نیز خالی از لطف نیست:
+همینطور مطالعه این مقالات خالی از لطف نیست:
 
 [600K concurrent websocket connections with Node.JS](https://blog.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/)
+
 [Socket.io benchmarking](http://drewww.github.io/socket.io-benchmarking/)
+
 [Maximum concurrent socket.io connections](https://stackoverflow.com/questions/15872788/maximum-concurrent-socket-io-connections)
+
 [Node.JS 1M concurrent connections](http://blog.caustik.com/2012/08/19/node-js-w1m-concurrent-connections/)
+
+## نتیجه نهایی
+
+بعد از مطالعه در مورد web-sockets و `Socket.io` و انجام چند تست به این نتیجه رسیدم که این Library به خوبی جواب نیازهای ما را خواهد داد.
+ما برای استفاده کردن از قابلیت های Socket.io دو راه داریم.
+
+یا اینکه یک Endpoint از طریق سرور فعلی UI ارائه بدیم تا تمامی Event های مورد نیاز جهت پردازش به آن ارسال شود و یا اینکه این سرویس در Pando-Notification پیاده سازی شده، و Event های دریافتی، پس از پردازش و ترجمه بهتر به عنوان یک Event socket به سمت UI Server ارسال گردد.
 
 </div>
